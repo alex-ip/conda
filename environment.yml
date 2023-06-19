@@ -2,6 +2,7 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - python=3.10
   - numpy
   - gdal
   - affine
@@ -23,6 +24,6 @@ dependencies:
   - bokeh
   - dask
   - jupyter-resource-usage
-  - pip
+  - pip:
     - netCDF4
     - zipstream-new
