@@ -3,12 +3,26 @@ channels:
   - conda-forge
 dependencies:
   - numpy
+  - gdal
+  - affine
+  - cartopy
+  - matplotlib
+  - numexpr
+  - owslib
+  - pyyaml
+  - requests
+  - scikit-image
+  - scipy
+  - shapely
+  - unidecode
   - psutil
   - toolz
-  - matplotlib
   - dill
   - pandas
   - partd
   - bokeh
   - dask
   - jupyter-resource-usage
+  - pip
+    - netCDF4
+    - zipstream-new
