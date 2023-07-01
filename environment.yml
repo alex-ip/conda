@@ -1,14 +1,23 @@
-name: example-environment
+name: geophys_utils
 channels:
   - conda-forge
 dependencies:
+  - python=3.10
+  - pip
   - numpy
-  - psutil
-  - toolz
+  - gdal
+  - affine
+  - cartopy
   - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
-  - jupyter-resource-usage
+  - numexpr
+  - owslib
+  - pyyaml
+  - requests
+  - scikit-image
+  - scipy
+  - shapely
+  - unidecode
+  - xarray
+  - pip:
+    - netCDF4
+    - zipstream-new
