@@ -1,12 +1,12 @@
 # Conda environment with environment.yml
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://dev-jupyterhub.atap-binder.cloud.edu.au/v2/gh/alex-ip/conda/HEAD?filepath=index.ipynb)
+[![Binder](http://mybinder.org/badge_logo.svg)](http://dev-binderhub.atap-binder.cloud.edu.au/v2/gh/alex-ip/conda/HEAD?filepath=index.ipynb)
 
 A Binder-compatible repo with an `environment.yml` file.
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-`http://dev-jupyterhub.atap-binder.cloud.edu.au/v2/gh/alex-ip/conda/HEAD?filepath=index.ipynb`
+`http://dev-binderhub.atap-binder.cloud.edu.au/v2/gh/alex-ip/conda/HEAD?filepath=index.ipynb`
 
 ## Notes
 The `environment.yml` file should list all Python libraries on which your notebooks
